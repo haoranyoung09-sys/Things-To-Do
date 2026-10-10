@@ -1,4 +1,5 @@
 def show_menu():
+    print("====== Todo App Menu ======")
     print("1. Add a new todo")
     print("2. List all todos")
     print("3. Mark a todo as done")
