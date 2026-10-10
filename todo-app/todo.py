@@ -3,7 +3,7 @@ def show_menu():
     print("1. Add a new todo")
     print("2. List all todos")
     print("3. Mark a todo as done")
-    print("4. Delete a todo")
+    print("4. Change a todo")
     print("5. Exit")
 
 

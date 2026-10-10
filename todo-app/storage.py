@@ -10,5 +10,5 @@ def load_todos():
 
 
 def save_todos(todos):
-    with open("todo.json", "w", encoding=utf-8) as f:
+    with open("todo.json", "w", encoding="utf-8") as f:
         json.dump(todos, f, ensure_ascii=False, indent=2)
