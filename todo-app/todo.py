@@ -15,7 +15,7 @@ def list_todos(todos):
         print(f"{status} {todo['task']}")
 
 
-def add_todos(todos):
+def add_todo(todos):
     content = input("Enter the task:").strip()
     if not content:
         print("Task cannot be empty.")
@@ -23,7 +23,7 @@ def add_todos(todos):
     todos.append({"No.": len(todos) + 1, "task": content, "done": False})
     print(f"Added todo: {content}")
 
-def mark_todos(todos):
+def mark_todo(todos):
     if not todos:
         print("No todos found.")
         return
@@ -37,7 +37,7 @@ def mark_todos(todos):
             print(f"Marked todo '{todo['task']}' as done.")
             return
         
-def change_todos(todos):
+def change_todo(todos):
     if not todos:
         print("No todos found.")
         return
